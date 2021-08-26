@@ -1,0 +1,29 @@
+invoke binary:
+r2 binary-name
+
+list functions:
+aa
+afl
+
+global call graph:
+agC
+
+
+diassemble main function:
+pdf@main
+
+
+decompile functions:
+pdg@function-name-found-in-disassembled-code
+
+
+change the name of function (for readability):
+afn new-name function-name-found-in-dissambled-code
+
+
+switch to visual mode:
+s address-to-start
+V
+
+
+
