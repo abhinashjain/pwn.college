@@ -7,3 +7,4 @@
 * I ended up hardcoding all 16 bits and ran the binary multiple times hoping that at some point my hardcoded value will match the address of win() function.
 * And, it worked!
 
+* Note: Do not use sendline() instead use send() pwntool function to prevent adding newline character at the time of partial overwrite.
